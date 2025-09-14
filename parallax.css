@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.parallax-section {
+    min-height: 50vh; /* Set a minimum height to ensure scrolling space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This is the key for parallax! */
+}
+
+#section1 {
+    /*background-image: url('./images/parallax-1.jpeg'); /* Replace with your image */*/
+}
+
+#section2 {
+    background-image: url('./images/parallax-2.jpeg'); /* Replace with your image */
+}
+
+.normal-section {
+    min-height: 50vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
